@@ -10,7 +10,7 @@ import pickle
 import streamlit as st
 
 #load the saved model
-loaded_model = pickle.load(open(r'D:\\Diabetes project\\_trained_model.sav', 'rb'))
+loaded_model = pickle.load(open('D:\\Diabetes project\\_trained_model.sav', 'rb'))
 
 
 #creating a function for Detection
@@ -65,6 +65,7 @@ def main():
 if __name__=='__main_':
 
     main()
+
 
 
 
